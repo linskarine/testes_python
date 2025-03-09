@@ -17,7 +17,7 @@ if response.status_code == 200:
     
     # Procurando o post com ID 10
     for post in posts:
-        if post['id'] == 10:
+        if post['id'] == 8:
             print("=== Post encontrado! ===")
             print(f"ID: {post['id']}")
             print(f"Título: {post['title']}")
